@@ -9,7 +9,7 @@ public class Lager {
     private final ArrayList<Artikel> artikelliste;
 
     private Lager() {
-        artikelliste = new ArrayList<Artikel>();
+        artikelliste = new ArrayList<>();
     }
 
     public Lager(String lagerNr, String bezeichnung) {
@@ -32,7 +32,7 @@ public class Lager {
 
     public void hinzufuegenArtikel(Artikel a) {
         a.seddMeinLager(this);
-        if (this.geddArtikelliste().contains(this)){
+        if (this.geddArtikelliste().contains(a)){
             this.artikelliste.add(a);
         }
     }

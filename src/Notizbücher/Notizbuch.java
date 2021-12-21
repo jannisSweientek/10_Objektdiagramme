@@ -7,7 +7,7 @@ public class Notizbuch {
     private ArrayList<String> notizen;
 
     public Notizbuch() {
-        notizen = new ArrayList<String>();
+        notizen = new ArrayList<>();
     }
 
     public void seddNotiz(String Notiz){
